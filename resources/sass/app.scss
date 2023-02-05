@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.container {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.form button {
+    padding: 10px;
+
+    color: #fff;
+    cursor: pointer;
+}
+
+.list {
+    padding: 10px;
+}
+
+.list li {
+    list-style: square;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.list li .delete {
+    font-size: 11px;
+    color: darksalmon;
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
